@@ -1,9 +1,6 @@
 import PagesTitleSection from "../../features/PagesTitleSection/PagesTitleSection.jsx";
 import useTitle from "../../hooks/useTitle.jsx";
 import ProductsTable from "../../features/ProductsTable/ProductsTable.jsx";
-import {IoIosSearch} from "react-icons/io";
-import {useEffect, useState} from "react";
-import productsData from "../../data/productsData.js";
 
 export default function Products() {
     useTitle("Product's");
@@ -28,9 +25,7 @@ export default function Products() {
 
             <section className="rounded-2xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
 
-                <ProductsTable
-
-                />
+                <ProductsTable />
             </section>
         </>
     )

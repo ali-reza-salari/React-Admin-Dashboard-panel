@@ -32,19 +32,6 @@ export default function Sidebar() {
                 }
             </nav>
 
-            <div className="mt-8 hidden border-t border-slate-200 pt-5 dark:border-slate-800 lg:block">
-                <p className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-slate-400">Workspace</p>
-
-                <NavLink to={"settings"} className={({isActive}) => `${isActive ? "bg-brand-50 text-brand-700 dark:bg-brand-500 dark:text-brand-100 dark:hover:bg-brand-500" : "text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"} flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-semibold`} end>
-                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"/>
-                        <path
-                            d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1-2.1 2.1-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5v.2h-3v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1-2.1-2.1.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H5.3v-3h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1 2.1-2.1.1.1a1.7 1.7 0 0 0 1.9.3 1.7 1.7 0 0 0 1-1.5v-.2h3v.2a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1 2.1 2.1-.1.1a1.7 1.7 0 0 0-.3 1.9 1.7 1.7 0 0 0 1.5 1h.2v3h-.2a1.7 1.7 0 0 0-1.5 1Z"/>
-                    </svg>
-                    Settings
-                </NavLink>
-            </div>
-
             <div className="mt-8 hidden rounded-2xl bg-slate-950 p-4 text-white dark:bg-slate-800 lg:block">
                 <p className="text-sm font-semibold">Need a hand?</p>
                 <p className="mt-1 text-xs leading-5 text-slate-400">

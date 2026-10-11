@@ -24,18 +24,6 @@ const routes = createBrowserRouter([
             {
                 path: "orders",
                 element: <Orders />
-            },
-            {
-                path: "customers",
-                element: <Customers />
-            },
-            {
-                path: "analytics",
-                element: <Analytics />
-            },
-            {
-                path: "settings",
-                element: <AiFillSetting />
             }
         ]
     },

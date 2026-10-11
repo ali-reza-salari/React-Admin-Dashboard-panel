@@ -1,7 +1,6 @@
-import { MdOutlineGridView , MdOutlineAnalytics  } from "react-icons/md";
+import { MdOutlineGridView } from "react-icons/md";
 import { IoShirtOutline } from "react-icons/io5";
 import { FiShoppingBag } from "react-icons/fi";
-import { LuUserRound } from "react-icons/lu";
 
 const sidebarMenus = [
     {
@@ -21,18 +20,6 @@ const sidebarMenus = [
         menu_name: "Orders",
         path: "orders",
         icon: FiShoppingBag
-    },
-    {
-        id: 4,
-        menu_name: "Customers",
-        path: "customers",
-        icon: LuUserRound
-    },
-    {
-        id: 5,
-        menu_name: "Analytics",
-        path: "analytics",
-        icon: MdOutlineAnalytics
     }
 ]
 
